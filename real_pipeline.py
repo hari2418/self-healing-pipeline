@@ -9,7 +9,7 @@ A production-grade self-healing data pipeline with:
 - Real-time monitoring dashboard
 - Enterprise alerting system
 
-Author: Your Name
+Author: Hari Krishna Kancharla
 Date: July 2025
 """
 
