@@ -1,8 +1,8 @@
-# Phoenix Pipeline - Enterprise Self-Healing Data Pipeline
+#  Self-Healing Data Pipeline
 
 A production-grade self-healing data pipeline with ML-powered anomaly detection, automated failure recovery, and real-time monitoring.
 
-## 🚀 Features
+## Features
 
 - **ML-Powered Anomaly Detection** - Isolation Forest algorithm for real-time failure prediction
 - **Automated Repair System** - 5 intelligent repair strategies with 85%+ success rate
@@ -11,7 +11,7 @@ A production-grade self-healing data pipeline with ML-powered anomaly detection,
 - **Persistent Storage** - SQLite database for metrics, events, and repair logs
 - **Predictive Maintenance** - 15-minute advance warning for system failures
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Python, Flask, SQLite
 - **ML/AI**: scikit-learn, pandas, numpy
@@ -19,7 +19,7 @@ A production-grade self-healing data pipeline with ML-powered anomaly detection,
 - **Alerting**: Slack webhooks, enterprise notification system
 - **Deployment**: Docker, Docker Compose
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **95% automated failure recovery**
 - **15-minute failure prediction accuracy**
@@ -27,7 +27,7 @@ A production-grade self-healing data pipeline with ML-powered anomaly detection,
 - **Real-time anomaly detection**
 - **Zero-downtime operations**
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install dependencies:**
 ```bash
@@ -40,7 +40,7 @@ bashpython real_pipeline.py
 3. Access dashboard:
 
 http://localhost:8000
-🏗️ Architecture
+Architecture
 Health Monitor → ML Detector → Diagnostic Engine → Repair System → Alert Manager
      ↓              ↓              ↓                  ↓             ↓
 Database Storage ← Real-time Dashboard ← Event Logging ← Notifications
